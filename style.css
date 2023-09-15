@@ -1,0 +1,159 @@
+.container{
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    margin:0%
+}
+
+.container1{
+    display: flex;
+    background-color: #1f2937;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.subcontainer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.subcontainer2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subcontainer3{
+    background-color: #3882f6;
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 16px;
+    border-radius: 5px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f9faf8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.text{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #f9faf8;
+}
+
+.text1{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.text2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.text3{
+    font-size: 18px;
+    color: #1f2937;
+    padding-right: 20px;
+    margin-top:8px;
+}
+
+.text4{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.text5{
+    font-size:20px;
+    font-weight: bold;
+}
+
+.action{
+    font-size: 16px;
+    font-weight: bold;
+    color:#f9faf8;
+}
+
+
+.image{
+    max-width: 300px;
+    display: flex;  
+}
+
+.image2{
+    max-width: 150px;
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.button{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 10px;
+    width: 95px;
+    height: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.button1{
+    background-color: #3882f6;
+    color:#f9faf8;
+    border-radius: 10px;
+    border: 2px solid white;
+    width: 95px;
+    height: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
